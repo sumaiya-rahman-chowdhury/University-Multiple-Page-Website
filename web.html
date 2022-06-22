@@ -10,13 +10,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/47b3c12346.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<section class="header">
-	<nav><div class="logo">
-		<a  href="web.html"><h3>University Logo</h3></a>
-		</div>
-		<div class="nav-links">
+	<nav>
+		<div class="nav-links" id="navlinks">
+		<i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
 		<ul>
 			<li><a href="">HOME</a></li>
 			<li><a href="">ABOUT</a></li>
@@ -25,6 +26,7 @@
 			<li><a href="">CONTACT</a></li>
 		</ul>	
 		</div>
+		<i class="fa-solid fa-bars" onclick="shoMenu()"></i>
 	</nav>	
 	<div class="text-box">
 		<h1>World Biggest Universty</h1>
@@ -32,5 +34,149 @@
 		<a href="" class="btn">Visit Us To Know Moe</a>
 	</div>
 	</section>
+
+	<section class="course">
+		<h1>Course We Offer</h1>
+		<p>
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+		</p>
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>
+					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+				</p>	
+			</div>
+			<div class="course-col">
+				<h3>Post-Graduation</h3>
+				<p>
+					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+				</p>	
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>
+					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+				</p>	
+			</div>
+		</div>
+	</section>
+	<section class="campus">
+		<h1>Our Global Campus</h1>
+		<p>
+		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.	
+		</p>
+		<div class="row">
+			<div class="campus-col">
+				<img src="img/greek.jpg">
+				<div class="layer">
+					<h3>GREEK</h3>
+				</div>
+			</div>
+			<div class="campus-col">
+				<img src="img/NewYork.jpg">
+				<div class="layer">
+					<h3>NEW YORK</h3>
+				</div>
+			</div>
+			<div class="campus-col">
+				<img src="img/paris.jpg">
+				<div class="layer">
+					<h3>PARIS</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="facilts">
+		<h1>Our Facilities</h1>
+		<p>
+		Sydney College in Virginia, looked up one of the more obscure Latin words, 	
+		</p>
+		<div class="row">
+			<div class="facilts-col">
+				<img src="img/lib.jpg">
+				<h3>World Class Library</h3>
+				<p>Sydney College in Virginia, looked up one of the more obscure Latin words,</p>
+			</div>
+			<div class="facilts-col">
+				<img src="img/pg.jpg">
+				<h3>Largest Play Ground</h3>
+				<p>Sydney College in Virginia, looked up one of the more obscure Latin words,</p>
+			</div>
+			<div class="facilts-col">
+				<img src="img/caft.jpg">
+				<h3>Tasty and Healthy Food</h3>
+				<p>Sydney College in Virginia, looked up one of the more obscure Latin words,</p>
+			</div>
+		</div>
+	</section>
+	<section class="test-m">
+		<h1>What our student Say?</h1>
+		<p>
+		Sydney College in Virginia, looked up one of the more obscure Latin words	
+		</p>
+		<div class="row">
+		<div class="test-m-col">
+			<img src="img/pic1.jpg">
+			<div>
+				<p>
+					you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+				</p>
+				<h3>Chris Smith</h3>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-o"></i>
+			</div>
+		</div>	
+		<div class="test-m-col">
+			<img src="img/pic2.jpg">
+			<div>
+				<p>
+					There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form
+				</p>
+				<h3>Jada Rock</h3>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star"></i>
+				<i class="fa-solid fa-star-half"></i>
+			</div>
+		</div>	
+		</div>
+	</section>
+	<section class="cta">
+		<h1>Enroll For Our Class</h1>
+		<a href="" class="btn">Contact Us</a>
+	</section>
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>
+		There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form	
+		</p>
+		<div class="icons">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-solid fa-envelope"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+		<p>
+			Made with <i class="fa-solid fa-heart"></i> by <b>Sumaiya Rahman Chowdhury</b>
+		</p>
+	</section>
+
+	<script>
+		var navLinks = document.getElementById("navlinks");
+		function shoMenu()
+		{
+			navLinks.style.right = "0";
+		}
+		function hidemenu()
+		{
+			navLinks.style.right = "-200px";
+		}
+	</script>
 </body>
 </html>
